@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra
+CFLAGS = -std=c11 -Wall -Wextra -D_GNU_SOURCE
 
 NAME = traceroute
 SRC = main.c icmp_receiver.c icmp_sender.c icmp_checksum.c stuff.c 
