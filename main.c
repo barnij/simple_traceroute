@@ -36,12 +36,6 @@ int main(int argc, char* argv[])
 		fprintf(stderr, "socket error: %s\n", strerror(errno)); 
 		return EXIT_FAILURE;
 	}
-    
-    if (sockfd < 0)
-    {
-		fprintf(stderr, "socket error: %s\n", strerror(errno)); 
-		return EXIT_FAILURE;
-	}
 
     int ttl = 1;
 
